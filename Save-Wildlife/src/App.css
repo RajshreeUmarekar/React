@@ -1,0 +1,84 @@
+.footer {
+    background-color:black;
+    color: white;
+    margin: 0px;
+    padding: 20px;
+}
+
+.jumbotron {
+    padding: 70px 30px 70px 30px;
+    color: whitesmoke;
+    background-color: goldenrod;
+}
+.navbar-dark {
+    background-color: black;
+    color: white;
+}
+.btn-social-icon {
+    margin: 5px;
+}
+.logo {
+    width: 4em;
+    height: 4em;
+    border-radius: 50%;
+}
+.leaderImg {
+    width: 8em;
+    height: 8em;
+    margin: 10px;
+    border-radius: 50%;
+}
+.leader-card {
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.teamImg {
+    width: 8em;
+    height: 10em;
+}
+form {
+    margin: 0 auto;
+    padding: 2rem;
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.25);
+    border-top: 5px solid goldenrod;
+}
+input[type="text"], input[type="password"],
+input[type="tel"], input[type="email"] {
+    margin-bottom: 0.5rem;
+}
+.invalid-feedback {
+    margin-bottom: 0.5rem;
+}
+input[type="checkbox"] {
+margin-right: 0.5rem;
+}
+
+button[type="submit"] {
+margin-top: 0.5rem;
+}
+.modal-open[style] {
+    padding-right: 0px !important;
+}
+.loading {
+    text-align-last: center;
+}
+
+/* Animations */
+.page-enter {
+    opacity: 0.01;
+    transform: translateX(-100%);
+}
+.page-enter-active {
+    opacity: 1;
+    transform: translateX(0%);
+    transition: all 300ms ease-in;
+}
+.page-exit {
+    opacity: 1;
+    transform: translateX(0%);
+}
+.page-exit-active {
+    opacity: 0.01;
+    transform: translateX(100%);
+    transition: all 300ms ease-out;
+}
